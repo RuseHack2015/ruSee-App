@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NACarousel.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController{
+	NACarousel *carousel;
+}
+@property (nonatomic, retain) IBOutlet NACarousel *carousel;
 
 @end
 
